@@ -1,9 +1,11 @@
 
-1: npm install
+1: git clone repo 
 
-2: Import DB files db.sql and change DB/Secret in .env
+2: npm install
 
-3: Endpoints
+3: Import DB files db.sql and change DB/Secret in .env
+
+4: Endpoints
 
 
 POST http://localhost:3000/register
