@@ -25,9 +25,10 @@ POST http://localhost:3000/login
 
 POST http://localhost:3000/messages 
 
-{
- "from_user_id": 4,
- "to_user_id": 5
+ {
+ "from_user_id": "4",
+ "to_user_id": "5",
+ "message": "4 to 5 "
 }
 
 
