@@ -1,4 +1,5 @@
-1. Install NPM packages  npm install
+
+1: npm install
 
 2: Import DB files db.sql and change DB/Secret in .env
 
@@ -82,3 +83,11 @@ Response:
         }
     ]
 }
+
+### Backend
+
+http://localhost:3000/login.html
+
+http://localhost:3000/messages.html
+
+
