@@ -1,9 +1,6 @@
-1. Install NPM packages
-   ```sh
-   npm install
-   ```
-2: Import DB files db.sql and change DB/Secret in .env
+1. Install NPM packages  npm install
 
+2: Import DB files db.sql and change DB/Secret in .env
 
 3: Endpoints
 
@@ -12,22 +9,16 @@ POST http://localhost:3000/register
 
 {
 "name": "qsfsfdf",
- "email": "sarang1@gmail.com",
- "password": "test@123"
+ "email": "xx@gmail.com",
+ "password": "XX"
 }
 
 POST http://localhost:3000/login
 
 {
- "email": "sarang@gmail.com",
- "password": "test@123"
+ "email": "xx@gmail.com",
+ "password": "xx"
 }
-
-{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjM0ODg5NTQ0LCJleHAiOjE2MzQ4OTMxNDR9.aOX833SeAf3f7a9pHvU8rMRk6LINRgMX_AfFkM6uw20",
-    "error": false
-}
-
 
 POST http://localhost:3000/messages 
 
@@ -37,23 +28,12 @@ POST http://localhost:3000/messages
 }
 
 
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjM0ODg5NTQ0LCJleHAiOjE2MzQ4OTMxNDR9.aOX833SeAf3f7a9pHvU8rMRk6LINRgMX_AfFkM6uw20
-
-if provided without token
-
-Response:
-
-{
-    "message": "Please provide the token",
-    "error": true
-}
-
-
+Header: Authorization: Bearer Xxxx
 
 
 GET http://localhost:3000/messages?from_user_id=5
 
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjM0ODg5NTQ0LCJleHAiOjE2MzQ4OTMxNDR9.aOX833SeAf3f7a9pHvU8rMRk6LINRgMX_AfFkM6uw20
+Authorization: Bearer xx
 
 Response:
 
